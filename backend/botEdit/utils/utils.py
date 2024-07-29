@@ -1,6 +1,10 @@
-import cv2
+from __future__ import annotations
+
 import base64
+
+import cv2
 import numpy as np
+
 
 def image_to_base64(image):
     # Chuyển đổi ảnh từ định dạng BGR (mặc định của OpenCV) sang định dạng JPEG
@@ -8,6 +12,7 @@ def image_to_base64(image):
     # Mã hóa ảnh thành chuỗi base64
     image_base64 = base64.b64encode(buffer).decode('utf-8')
     return image_base64
+
 
 def base64_to_image(image_base64):
     # Giải mã chuỗi base64 thành byte buffer

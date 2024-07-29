@@ -1,3 +1,5 @@
+
+chardet
 langfuse
 # Main
 llama-index
@@ -12,8 +14,5 @@ pydantic-settings
 python-dotenv
 # Others
 tqdm
-
 # Others
 typer
-
-chardet

@@ -41,5 +41,5 @@ def initialize(env_path: str):
     setup_openai(settings)
     setup_embeding(settings)
     setup_tracing(settings)
-    
+
     return settings.sd_api_key
